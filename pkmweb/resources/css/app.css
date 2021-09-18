@@ -1,0 +1,86 @@
+.alert-main {
+    color: #000;
+    background-color: #000;
+    border-color: #000;
+}
+
+.alert-main hr {
+    border-top-color: #9fcdff;
+}
+
+.href-profil {
+    color: #232121;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/* BTN MAIN */
+.btn-main {
+    color: #fff;
+    background-color: #093697;
+    border-color: #093697;
+}
+
+.btn-main:hover {
+    color: #fff;
+    background-color: #042875;
+    border-color: #042875;
+}
+.bg-main {
+    background-color: #093697 !important;
+}
+.text-main {
+    color: #093697 !important;
+}
+
+/* BTN KATAGORI */
+.btn-label {
+    margin-right: 0.8rem;
+    border-radius: 2.25rem !important;
+    padding: 0.5rem 3rem;
+}
+
+/* HIDE RADIO */
+.no_radio {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type="radio"] + span {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type="radio"]:checked + span {
+    border: 1px solid #093697;
+    border-radius: 5px;
+}
+/* CHECKED STYLES */
+[type="radio"] + span:hover {
+    border: 1px solid #093697;
+    border-radius: 5px;
+}
+
+/* Scroll Horizontal */
+div.scrollmenu {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* Tinggi ScrollBar*/
+#myselect-container {
+    position: relative;
+    height: 10px;
+    width: 100px;
+    /*for contain our absoulte select tag */
+}
+#myselect-container select {
+    position: absolute;
+    /*for put our list on other tag */
+}
